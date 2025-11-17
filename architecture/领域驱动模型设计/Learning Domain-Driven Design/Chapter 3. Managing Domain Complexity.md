@@ -230,11 +230,11 @@ Let’s turn to the domain-driven design pattern for tackling-应付,解决 such
 
 # What Is a Bounded Context?
 
-> 什么是有界上下文？
+> 什么是限界上下文？
 
 The solution in domain-driven design is trivial-平凡的,琐碎的,不重要的: divide the ubiquitous language into multiple smaller languages, then assign each one to the explicit-显式的 context in which it can be applied: its *bounded context*.
 
-> 领域驱动设计的解决方案很简单：将通用语言划分为多个较小的语言，然后将每个语言分配到可以应用它的显式上下文中：它的“有界上下文中”。
+> 领域驱动设计的解决方案很简单：将统一语言划分为多个较小的语言，然后将每个语言分配到可以应用它的显式上下文中：它的“有界上下文中”。
 
 ---
 
@@ -264,7 +264,7 @@ In a sense, terminology conflicts and implicit contexts are an inherent part of 
 
 With the bounded context pattern, the contexts are modeled as an explicit and integral-必需的,必要的 part of the business domain.
 
-> 使用有界上下文模式，将上下文建模为业务域的显式和不可分割的一部分。
+> 使用限界上下文模式，将上下文建模为业务域的显式和不可分割的一部分。
 
 
 
@@ -310,7 +310,7 @@ Just as a subway map is useless for nautical-航海的,海上的 navigation, a u
 
 Bounded contexts define the applicability of a ubiquitous language and of the model it represents.
 
-> 有界上下文定义了通用语言及其所代表的模型的适用性。
+> 限界上下文定义了统一语言及其所代表的模型的适用性。
 
 They allow defining distinct models according to different problem domains.
 
@@ -332,7 +332,7 @@ A language’s terminology, principles, and business rules are only consistent i
 
 Bounded contexts allow us to complete the definition of a ubiquitous language.
 
-> 有界上下文允许我们完成通用语言的定义。
+> 限界上下文允许我们完成统一语言的定义。
 
 A ubiquitous language is *not* “ubiquitous” in the sense that it should be used and applied “ubiquitously” throughout the organization.
 
@@ -350,7 +350,7 @@ Instead, a ubiquitous language is ubiquitous only in the boundaries of its bound
 
 The language is focused on describing only the model that is encompassed-包含,包括 by the bounded context.
 
-> 该语言专注于只描述被有界上下文所包含的模型。
+> 该语言专注于只描述被限界上下文所包含的模型。
 
 As a model cannot exist without a problem it is supposed-应当的 to address, a ubiquitous language cannot be defined or used without an explicit context of its applicability-适用性,适应性.
 
@@ -392,11 +392,11 @@ However, we can still further decompose the models into even smaller bounded con
 
 *Figure 3-4. Smaller bounded contexts*
 
-> 图3-4 较小的有界上下文
+> 图3-4 较小的限界上下文
 
 Defining the scope of a ubiquitous language—its bounded context—is a strategic design decision.
 
-> 定义一种通用语言的范围(即它的有限上下文)是一种战略性设计决策。
+> 定义一种统一语言的范围(即它的有限上下文)是一种战略性设计决策。
 
 Boundaries can be wide, following the business domain’s inherent contexts, or narrow-狭窄的,狭小的, further dividing the business domain into smaller problem domains.
 
@@ -422,7 +422,7 @@ The wider the boundary of the ubiquitous language is, the harder it is to keep i
 
 It may be beneficial to divide-划分 a large ubiquitous language into smaller, more manageable problem domains, but striving-力争,追求 for small bounded contexts can backfire-适得其反 too.
 
-> 将大型通用语言划分为更小、更易于管理的问题域可能是有益的，但追求较小的有界上下文也可能适得其反。
+> 将大型通用语言划分为更小、更易于管理的问题域可能是有益的，但追求较小的限界上下文也可能适得其反。
 
 The smaller they are, the more integration overhead the design induces-引起,导致.
 
@@ -452,7 +452,7 @@ Another common reason for extracting-提取 one functionality is the ability to 
 
 Therefore, keep your models useful and align the bounded contexts’ sizes with your business needs and organizational constraints.
 
-> 因此，保持您的模型有用，并使有界上下文的大小与您的业务需求和组织约束保持一致。
+> 因此，保持您的模型有用，并使限界上下文的大小与您的业务需求和组织约束保持一致。
 
 One thing to beware of is splitting a coherent-连贯的 functionality into multiple bounded contexts.
 
@@ -672,7 +672,7 @@ It reshapes what is outside, just as it shapes what is inside.
 
 The bounded context pattern is the domain-driven design tool for defining physical and ownership boundaries.
 
-> 有界上下文模式是用于定义物理和所有权边界的领域驱动设计工具。
+> 限界上下文模式是用于定义物理和所有权边界的领域驱动设计工具。
 
 
 
@@ -696,11 +696,11 @@ Clear physical boundaries between bounded contexts allow us to implement each bo
 
 As we discussed earlier, a bounded context can contain multiple subdomains.
 
-> 如前所述，有界上下文可以包含多个子域。
+> 如前所述，限界上下文可以包含多个子域。
 
 In such a case, the bounded context is a physical boundary, while each of its subdomains is a logical boundary.
 
-> 在这种情况下，有界上下文是一个物理边界，而它的每个子域是一个逻辑边界。
+> 在这种情况下，限界上下文是一个物理边界，而它的每个子域是一个逻辑边界。
 
 Logical boundaries bear-具有,带有 different names in different programming languages: namespaces, modules, or packages.
 
@@ -722,7 +722,7 @@ In software projects, we can leverage model boundaries—bounded contexts—for 
 
 The division of work between teams is another strategic decision that can be made using the bounded context pattern.
 
-> 团队之间的工作分工是可以使用有界上下文模式做出的另一个战略决策。
+> 团队之间的工作分工是可以使用限界上下文模式做出的另一个战略决策。
 
 ---
 

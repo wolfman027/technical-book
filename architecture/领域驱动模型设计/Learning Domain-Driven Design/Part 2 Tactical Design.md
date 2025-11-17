@@ -4,7 +4,7 @@
 
 In Part I, we discussed the “what” and “why” of software: you learned to analyze business domains, identify subdomains and their strategic value, and turn the knowledge of business domains into the design of bounded contexts—software components implementing different models of the business domain.
 
-> 在第一部分中，我们讨论了软件的“什么”和“为什么”:您学会了分析业务领域、识别子领域及其战略价值，并将业务领域的知识转化为有界上下文的设计——实现业务领域不同模型的软件组件。
+> 在第一部分中，我们讨论了软件的“什么”和“为什么”:您学会了分析业务领域、识别子领域及其战略价值，并将业务领域的知识转化为限界上下文的设计——实现业务领域不同模型的软件组件。
 
 In this part of the book, we will turn from strategy to tactics: the “how” of software design:
 
@@ -40,7 +40,7 @@ In this part of the book, we will turn from strategy to tactics: the “how” o
 
   You will learn patterns supporting the implementation of bounded context integration patterns, how to implement reliable publishing of messages, and patterns for defining complex, cross-component workflows.
 
-  > 您将学习支持实现有界上下文集成模式的模式、如何实现可靠的消息发布，以及用于定义复杂的跨组件工作流的模式。
+  > 您将学习支持实现限界上下文集成模式的模式、如何实现可靠的消息发布，以及用于定义复杂的跨组件工作流的模式。
 
 
 

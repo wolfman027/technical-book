@@ -168,7 +168,7 @@ Let’s see how they differ from a company strategy point of view.
 
 A *core subdomain* is what a company does differently from its competitors.
 
-> 核心子域名是公司与其竞争对手的不同之处。
+> 核心子域是公司与其竞争对手的不同之处。
 
 This may involve inventing new products or services or reducing costs by optimizing existing processes.
 
@@ -190,7 +190,7 @@ As its competitors **caught up**-追赶上, Uber found ways to optimize and evol
 
 Uber’s core subdomains affect its bottom line.
 
-> 优步的核心子域名影响着它的利润。
+> 优步的核心子域影响着它的利润。
 
 This is how the company differentiates itself from its competitors.
 
@@ -214,7 +214,7 @@ At the time of this writing, Google’s advertising-广告 platform **accounts f
 
 That said, Google Ads is not a subdomain, but rather a separate business domain with subdomains comprising-包含,组成 it, among its cloud computing service (Google Cloud Platform), productivity and collaboration tools (Google Workspaces), and other fields in which Alphabet, Google’s parent company, operates.
 
-> 也就是说，谷歌广告不是一个子域名，而是一个独立的业务域名，其中包含子域名，包括其云计算服务(谷歌云平台)、生产力和协作工具(谷歌工作区)，以及谷歌母公司 Alphabet 运营的其他领域。
+> 也就是说，谷歌广告不是一个子域名，而是一个独立的业务域，其中包含子域，包括其云计算服务(谷歌云平台)、生产力和协作工具(谷歌工作区)，以及谷歌母公司 Alphabet 运营的其他领域。
 
 But what about Google Search and its ranking algorithm?
 

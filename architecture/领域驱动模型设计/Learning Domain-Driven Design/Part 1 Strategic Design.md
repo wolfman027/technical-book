@@ -46,7 +46,7 @@ You will learn how to cultivate-培养,建立 a ubiquitous language and use it t
 
 Chapter 3 discusses another domain-driven design core tool: the *bounded context* pattern.
 
-> 第三章讨论了另一个领域驱动设计的核心工具：“有界上下文”模式。
+> 第三章讨论了另一个领域驱动设计的核心工具：“限界上下文”模式。
 
 You will learn why this tool is essential for cultivating-培养,建立 a ubiquitous language and how to use it to transform discovered knowledge into a model of the business domain.
 

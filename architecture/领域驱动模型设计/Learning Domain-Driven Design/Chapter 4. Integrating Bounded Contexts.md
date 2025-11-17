@@ -1,10 +1,10 @@
 > Chapter 4. Integrating Bounded Contexts
 >
-> 章节 4. 整合有界上下文
+> 章节 4. 限界上下文集成
 
 Not only does the bounded context pattern protect the consistency of a ubiquitous language, it also enables modeling.
 
-> 有界上下文模式不仅保护了通用语言的一致性，还支持建模。
+> 有界上下文模式不仅保护了统一语言的一致性，还支持建模。
 
 You cannot build a model without specifying its purpose—its boundary.
 
@@ -16,11 +16,11 @@ The boundary divides the responsibility of languages.
 
 A language in one bounded context can model the business domain to solve a particular problem.
 
-> 一个有界上下文中的语言可以为业务领域建模以解决特定问题。
+> 一个限界上下文中的语言可以为业务领域建模以解决特定问题。
 
 Another bounded context can represent the same business entities but model them to solve a different problem.
 
-> 另一个有界上下文可以表示相同的业务实体，但对它们进行建模以解决不同的问题。
+> 另一个限界上下文可以表示相同的业务实体，但对它们进行建模以解决不同的问题。
 
 ---
 
@@ -30,11 +30,11 @@ Moreover-此外,而且, models in different bounded contexts can be evolved and 
 
 That said, bounded contexts themselves are not independent.
 
-> 也就是说，有界上下文本身并不是独立的。
+> 也就是说，限界上下文本身并不是独立的。
 
 Just as a system cannot be built out of independent components—the components have to interact with one another to achieve the system’s overarching-首要的,总体的 goals—so, too, do the implementations in bounded contexts.
 
-> 正如系统不能由独立的组件构建而成——组件必须相互交互才能实现系统的总体目标——在有限的上下文中实现也是如此。
+> 正如系统不能由独立的组件构建而成——组件必须相互交互才能实现系统的总体目标——在限界的上下文中实现也是如此。
 
 Although they can evolve independently, they have to integrate with one another.
 
@@ -42,7 +42,7 @@ Although they can evolve independently, they have to integrate with one another.
 
 As a result, there will always be touchpoints between bounded contexts.
 
-> 因此，在有界上下文之间总是存在接触点。
+> 因此，在限界上下文之间总是存在接触点。
 
 These are called *contracts*.
 
@@ -60,7 +60,7 @@ Since each contract affects more than one party, they need to be defined and coo
 
 Also, by definition, two bounded contexts are using different ubiquitous languages.
 
-> 此外，根据定义，两个有界上下文使用不同的通用语言。
+> 此外，根据定义，两个限界上下文使用不同的统一语言。
 
 Which language will be used for integration purposes?
 
@@ -122,7 +122,7 @@ Let’s look at two DDD patterns suitable for cooperating teams: the partnership
 
 In the partnership model, the integration between bounded contexts is coordinated in an ad hoc manner.
 
-> 在伙伴关系模型中，有界上下文之间的集成以一种特别的方式进行协调。
+> 在伙伴关系模型中，限界上下文之间的集成以一种特别的方式进行协调。
 
 One team can notify a second team about a change in the API, and the second team will cooperate and adapt—no drama-戏剧 or conflicts (see Figure 4-1).
 
@@ -178,7 +178,7 @@ This pattern might not be a good fit for geographically-在地理上,地理学�
 
 Despite bounded contexts being model boundaries, there still can be cases when the same model of a subdomain, or a part of it, will be implemented in multiple bounded contexts.
 
-> 尽管有界上下文是模型边界，但仍然存在子域的相同模型或其一部分将在多个有界上下文中实现的情况。
+> 尽管限界上下文是模型边界，但仍然存在子域的相同模型或其一部分将在多个有界上下文中实现的情况。
 
 It’s crucial to stress that the shared model is designed according to the needs of all of the bounded contexts.
 
@@ -256,7 +256,7 @@ Either way, each change to the shared kernel must trigger integration tests for 
 
 The continuous integration of changes is required because the shared kernel belongs to multiple bounded contexts.
 
-> 由于共享内核属于多个有界上下文，因此需要对更改进行持续集成。
+> 由于共享内核属于多个限界上下文，因此需要对更改进行持续集成。
 
 Not propagating-传播,宣传 shared kernel changes to all related bounded contexts leads to inconsistencies in a model: bounded contexts may rely on stale-陈旧的 implementations of the shared kernel, leading to data corruption and/or runtime issues.
 
@@ -448,7 +448,7 @@ As in the conformist pattern, the balance of power in this relationship is still
 
 However, in this case, the downstream bounded context is not willing to conform.
 
-> 然而，在这种情况下，下游有界上下文不愿意遵循。
+> 然而，在这种情况下，下游限界上下文不愿意遵循。
 
 Instead, it can translate the upstream bounded context’s model into a model tailored to its own needs via an anticorruption layer, as shown in Figure 4-5.
 
@@ -482,7 +482,7 @@ A core subdomain’s model requires extra attention, and adhering to the supplie
 
 If a bounded context conforms to a mess-混乱, it risks becoming a mess itself.
 
-> 如果有界上下文符合混乱，那么它本身就有可能成为混乱。
+> 如果限界上下文符合混乱，那么它本身就有可能成为混乱。
 
 That is often the case when integrating with legacy systems.
 
@@ -784,7 +784,7 @@ Moreover-此外,而且, even if bounded contexts are limited to a single subdoma
 
 Bounded contexts are not independent.
 
-> 有界上下文不是独立的。
+> 限界上下文不是独立的。
 
 They have to interact with one another.
 
@@ -846,7 +846,7 @@ It’s less expensive to duplicate particular functionality than to collaborate 
 
 The integrations among the bounded contexts can be plotted-绘制 on a context map.
 
-> 有界上下文之间的集成可以绘制在上下文映射上。
+> 限界上下文之间的集成可以绘制在上下文映射上。
 
 This tool gives insight into the system’s high-level design, communication patterns, and organizational issues.
 

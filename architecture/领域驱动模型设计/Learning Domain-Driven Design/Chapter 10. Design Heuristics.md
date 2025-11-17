@@ -1,6 +1,6 @@
 > Chapter 10. Design Heuristics
 >
-> 章节 9. 设计探索
+> 章节 9. 设计启发式
 
 “It depends-那得看情况” is the correct answer to almost any question in software engineering, but not really practical.
 

@@ -170,11 +170,11 @@ This restriction requires the model’s objects to be *plain-普通的 old objec
 
 The emphasis on business logic instead of technical concerns makes it easier for the domain model’s objects to follow the terminology of the bounded context’s ubiquitous language.
 
-> 强调业务逻辑而不是技术问题，使得领域模型的对象更容易遵循有界上下文的通用语言的术语。
+> 强调业务逻辑而不是技术问题，使得领域模型的对象更容易遵循限界上下文的统一语言的术语。
 
 In other words, this pattern allows the code to “speak” the ubiquitous language and to follow the domain experts’ mental models.
 
-> 换句话说，这种模式允许代码“说”通用语言，并遵循领域专家的心智模型。
+> 换句话说，这种模式允许代码“说”统一语言，并遵循领域专家的心智模型。
 
 
 
@@ -182,7 +182,7 @@ In other words, this pattern allows the code to “speak” the ubiquitous langu
 
 Let’s look at the central domain model building blocks, or tactical patterns, offered by DDD: value objects, aggregates, and domain services.
 
-> 让我们看一下 DDD 提供的中心域模型构建块或策略模式：值对象、聚合和领域服务。
+> 让我们看一下 DDD 提供的核心领域模型构建块或策略模式：值对象、聚合和领域服务。
 
 
 
@@ -371,7 +371,7 @@ The cohesive logic is implemented in one place and is easy to test.
 
 Most importantly, value objects express the business domain’s concepts: they make the code speak the ubiquitous language.
 
-> 最重要的是，值对象表达了业务领域的概念：它们使代码使用通用语言。
+> 最重要的是，值对象表达了业务领域的概念：它们使代码使用统一语言。
 
 ---
 
@@ -507,7 +507,7 @@ public class Color {
 
 Although using a core library’s Strings to represent domain-specific values contradicts-相抵触,相矛盾 the notion of value objects, in .NET, Java, and other languages the string type is implemented exactly as a value object.
 
-> 尽管使用核心库的字符串来表示特定于领域的值与值对象的概念相矛盾，但在。net、Java和其他语言中，字符串类型被精确地实现为值对象。
+> 尽管使用核心库的字符串来表示特定于领域的值与值对象的概念相矛盾，但在 .net、Java 和其他语言中，字符串类型被精确地实现为值对象。
 
 Strings are immutable-永恒的,不可改变的, as all operations result in a new instance.
 

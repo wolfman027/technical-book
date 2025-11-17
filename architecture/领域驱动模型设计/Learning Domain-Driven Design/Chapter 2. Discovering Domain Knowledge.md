@@ -272,7 +272,7 @@ Domain-driven design proposes-提议,建议 a better way to get the knowledge fr
 
 Using a ubiquitous language is the cornerstone-基石,基础 practice of domain-driven design.
 
-> 使用通用语言是领域驱动设计的基础实践。
+> 使用统一语言是领域驱动设计的基础实践。
 
 The idea is simple and straightforward: if parties need to communicate efficiently, instead of relying on translations, they have to speak the same language.
 
@@ -332,7 +332,7 @@ Only through the continuous-连续不断的,持续的 use of the ubiquitous lang
 
 It’s crucial to emphasize that the ubiquitous language is the language of the business.
 
-> 必须强调的是，通用语言是业务语言。
+> 必须强调的是，统一语言是业务语言。
 
 As such, it should consist of business domain–related terms only.
 
@@ -432,7 +432,7 @@ It should eliminate-剔除,排除 the need for assumptions and should make the b
 
 Since ambiguity-模棱两可,不明确 hinders-阻碍,妨碍 communication, each term of the ubiquitous language should have one and only one meaning.
 
-> 由于歧义阻碍了交流，通用语言的每个术语都应该有且只有一个意思。
+> 由于歧义阻碍了交流，统一语言的每个术语都应该有且只有一个意思。
 
 Let’s look at a few examples of unclear terminology and how it can be improved.
 
@@ -470,7 +470,7 @@ Ubiquitous language demands a single meaning for each term, so “policy” shou
 
 Two terms cannot be used interchangeably-可交换地 in a ubiquitous language.
 
-> 在通用语言中，两个术语不能互换使用。
+> 在统一语言中，两个术语不能互换使用。
 
 For example, many systems use the term *user*.
 
@@ -618,7 +618,7 @@ As noted by Edsger W. Dijkstra in his paper “The Humble Programmer,” the pur
 
 When cultivating-培养,建立 a ubiquitous language, we are effectively building a model of the business domain.
 
-> 在培养一种通用语言时，我们正在有效地构建业务领域的模型。
+> 在培养一种统一语言时，我们正在有效地构建业务领域的模型。
 
 The model is supposed-应当的 to capture the domain experts’ mental models—their thought processes about how the business works to implement its function.
 
@@ -934,7 +934,7 @@ Software engineers have to understand the business domain in order to design and
 
 Domain-driven design’s ubiquitous language is an effective tool for bridging-弥合 the knowledge gap between domain experts and software engineers.
 
-> 领域驱动设计的通用语言是弥合领域专家和软件工程师之间知识鸿沟的有效工具。
+> 领域驱动设计的统一语言是弥合领域专家和软件工程师之间知识鸿沟的有效工具。
 
 It fosters-促进,培养 communication and knowledge sharing by cultivating a shared language that can be used by all the stakeholders throughout the project: in conversations, documentation, tests, diagrams, source code, and so on.
 
